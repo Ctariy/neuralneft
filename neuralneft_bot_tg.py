@@ -8,7 +8,8 @@ Created on Wed Jan 27 14:42:02 2021
 import telebot
 import pandas as pd
 
-bot = telebot.TeleBot('1689654010:AAFxyd-_xbbmXJ0TB9-6SiqDmaaCGxD9bKE')
+bot = telebot.TeleBot('
+                      ')
 
 prediction = pd.read_csv(r'prediction.csv')
 del prediction['Unnamed: 0']
